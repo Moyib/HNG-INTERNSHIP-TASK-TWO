@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: inherit;
+}
+body {
+  background-color: white;
+  font-family: "Gill Sans", sans-serif;
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  margin-right: 0;
+}
+
+.image {
+  float: left;
+  width: 20%;
+  height: 300px;
+  background: #CBCFDF;
+  padding: 20px;
+}
+
+
+#details {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #DABFDE;
+  height: 300px;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+
+span.moyib {
+  font-weight: normal;
+  font-size: 300%;
+  color: black;
+}
+
+span.ayomide {
+  font-weight: lighter;
+  font-size: 250%;
+  color: black;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p.member {
+  font-size: 20px;
+}
+
+.SF1, .SF2, .SF3, .SF4, .SF5 {
+  font-size: 13px;
+}
+
+img {
+  border-radius: 50%;
+  height: 300px;
+  width: 250px;
+}
+
+.headings {
+  color: #708090;
+}
+
+hr {
+  color: #CBCFDF;
+  border: 2px solid #CBCFDF;
+  width: 1300px;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+@media (max-width: 5000px) {
+  aside, article {
+    width: 100%;
+    height: auto;
+  }
